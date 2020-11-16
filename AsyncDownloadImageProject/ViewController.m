@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+Download.h"
 
 @interface ViewController ()
 
@@ -15,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    // 下载一张图片
+    [UIImage downloadImageWithImageUrl:@""];
+    
+    // 下载多张图片
+    [UIImage downloadImageWithImages:@[]];
+    
+    // 根据URL获取下载到本地的图片
+    [UIImage getDownloadImageWithImageUrl:@""];
+    
 }
 
 

@@ -16,6 +16,7 @@
 		0248AB8625622A9600809D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248AB8525622A9600809D55 /* main.m */; };
 		0248AB9025622A9600809D55 /* AsyncDownloadImageProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248AB8F25622A9600809D55 /* AsyncDownloadImageProjectTests.m */; };
 		0248AB9B25622A9600809D55 /* AsyncDownloadImageProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248AB9A25622A9600809D55 /* AsyncDownloadImageProjectUITests.m */; };
+		0248ABAD25622AC800809D55 /* UIImage+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248ABAC25622AC800809D55 /* UIImage+Download.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		0248AB9625622A9600809D55 /* AsyncDownloadImageProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncDownloadImageProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0248AB9A25622A9600809D55 /* AsyncDownloadImageProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncDownloadImageProjectUITests.m; sourceTree = "<group>"; };
 		0248AB9C25622A9600809D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0248ABAB25622AC800809D55 /* UIImage+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Download.h"; sourceTree = SOURCE_ROOT; };
+		0248ABAC25622AC800809D55 /* UIImage+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Download.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		0248AB7225622A9500809D55 /* AsyncDownloadImageProject */ = {
 			isa = PBXGroup;
 			children = (
+				0248ABAB25622AC800809D55 /* UIImage+Download.h */,
+				0248ABAC25622AC800809D55 /* UIImage+Download.m */,
 				0248AB7325622A9500809D55 /* AppDelegate.h */,
 				0248AB7425622A9500809D55 /* AppDelegate.m */,
 				0248AB7625622A9500809D55 /* SceneDelegate.h */,
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0248ABAD25622AC800809D55 /* UIImage+Download.m in Sources */,
 				0248AB7B25622A9500809D55 /* ViewController.m in Sources */,
 				0248AB7525622A9500809D55 /* AppDelegate.m in Sources */,
 				0248AB8625622A9600809D55 /* main.m in Sources */,
